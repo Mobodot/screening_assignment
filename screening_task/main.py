@@ -24,8 +24,8 @@ def replace_original_str(file_path:str, original_str:str, replace_str:str) -> st
 
 
 # Uncomment the code below to run the program
-print("<------- Code to replace a string in a file ------>")
-print(replace_original_str("example.txt", "placement", "screening"))
+# print("<------- Code to replace a string in a file ------>")
+# print(replace_original_str("example.txt", "placement", "screening"))
 
 
 """Q2 i): Abstract class example"""
@@ -61,11 +61,11 @@ class ChildInfo(Parent):
                 
                 
 # Uncomment the code below to run the program
-print("<---------- Abstract class Example --------->")
-paul = ChildInfo("Paul Jackson")
-paul.father("Anthony Jackson")
-paul.mother("Mary Jackson")
-print(paul.child_info())
+# print("<---------- Abstract class Example --------->")
+# paul = ChildInfo("Paul Jackson")
+# paul.father("Anthony Jackson")
+# paul.mother("Mary Jackson")
+# print(paul.child_info())
 
 
 """Q2 ii): Multiple inheritance example"""
@@ -97,9 +97,9 @@ class StudentInfo(School, ClassRoom):
             Class id: {self.class_id}"
             
 # Uncomment the code below to run the program
-print("<-------- Multiple Inheritance Example ----------->")
-std1 = StudentInfo(1234, 777, "Tony", "Stark")
-print(std1.student_details())
+# print("<-------- Multiple Inheritance Example ----------->")
+# std1 = StudentInfo(1234, 777, "Tony", "Stark")
+# print(std1.student_details())
 
 
 """Q2 iii): Decorator Example"""
@@ -117,6 +117,6 @@ def bigger_numerator_as_dividend(func):
 
 
 # Uncomment the code below to run the program
-print("<--------- Code to show decorators example ------->")
-new_div = bigger_numerator_as_dividend(div)
-print(new_div(2,4))
+# print("<--------- Code to show decorators example ------->")
+# new_div = bigger_numerator_as_dividend(div)
+# print("Division result: "new_div(2,4))
